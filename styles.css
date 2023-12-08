@@ -1,0 +1,80 @@
+.container-fluid{
+    background-color: #00BDF9;
+    padding: 20px;
+    margin: 0px;
+}
+
+
+/*Sección 1*/
+
+.secc1 {
+    background-image: url(https://cdn.forbes.com.mx/2023/01/cdmx.webp);
+    background-position: center;
+    background-size: cover;
+    /* Ajusta la imagen para cubrir todo el contenedor */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 450px;
+    display: grid;
+    place-items: center;
+}
+
+.secc1-content {
+    justify-content: center;
+    place-items: center;
+    text-align: left;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 100px;
+    letter-spacing: 10px;
+    margin: 5px;
+}
+
+/* Estilos para el título responsive */
+.titulo-responsive {
+    font-size: 3em; /* Tamaño inicial del título */
+  }
+  
+  /* Media query para ajustar el tamaño del título en pantallas más pequeñas */
+  @media screen and (max-width: 768px) {
+    .titulo-responsive {
+      font-size: 2em; /* Tamaño ajustado para pantallas más pequeñas */
+    }
+  }
+  
+  /* Media query adicional si es necesario para dispositivos aún más pequeños */
+  @media screen and (max-width: 480px) {
+    .titulo-responsive {
+      font-size: 1.5em; /* Tamaño más reducido para dispositivos muy pequeños */
+    }
+  }
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 5;
+    margin: 2px;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+
+.mi-formulario {
+    background-color: #00BDF9;
+    /* Color de fondo */
+    padding: 50px;
+    /* Padding interior */
+    margin: 100px;
+    /* Margen exterior */
+}
+
+.form-label {
+    font-weight: bolder;
+    color: rgb(83, 83, 83);
+}
+
